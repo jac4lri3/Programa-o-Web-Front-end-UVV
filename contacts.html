@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Script Media</title>
+    <link rel="stylesheet" href="./contacts.css " />   
+    <link rel="shortcut icon" href="/images/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Cabeçalho com logo centralizada e menu hambúrguer à esquerda -->
+    <header>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <!-- Serve para quando clickarmos 
+      (onclick) ele ativa essa função que está no .js -->
+      <h1 class="cssanimation hu__hu__">Script</h1>
+      <h1 class="cssanimation hu__hu__">Media</h1>
+    </header>
+
+    <!-- Menu dropdown com 4 links -->
+    <nav id="menu">
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./systemofadown.html">SYSTEM OF A DOWN</a></li>
+        <li><a href="./immortal.html">MICHAEL JACKSON</a></li>
+        <li><a href="./inedito.html">TOM JOBIM</a></li>
+        <li><a href="./contacts.html">CONTACTS</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="elemento1">
+          <!-- Coloque aqui o logo ou ícone -->
+          <img src="./images/images/song-image.png" alt="Logo" />
+        </div>
+        <div class="elemento2">
+          <!-- Coloque aqui o formulário ou texto -->
+          <form>
+            <input id="name" type="text" placeholder="Full Name" /></br>
+            <input id="name" type="email" placeholder="E-mail" /></br>
+            <input id="name" type="text" placeholder="Message"/>
+            <button class="botao-enviar">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <!-- <div class = "logo-musica">
+        <img src="images/images/song-image.png">
+      </div>
+        <div class="container">
+          <div class="div-pai">CONTACT-US</div>
+          <div class="quadrado"></div>
+      <div class="quadrado">
+        <div class="div-filho">
+          <p>
+            FULL NAME<br><br>
+            E-MAIL<br><br>
+            MESSAGE
+          </p>
+        </div>
+      </div>-->
+    </main>
+
+    <script src="script.js"></script>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./systemofadown.html">System of a Down</a></li>
+            <li><a href="./immortal.html">Michael Jackson</a></li>
+            <li><a href="./inedito.html">Tom Jobim</a></li>
+            <li><a href="./contacts.html">Contatos</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Siga-nos</h3>
+          <a href="https://www.facebook.com" target="_blank">Facebook</a>
+          <a href="https://www.twitter.com" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Script Media. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
